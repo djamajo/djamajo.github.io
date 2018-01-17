@@ -78,6 +78,67 @@ var AboutComponent = (function () {
 
 /***/ }),
 
+/***/ "../../../../../src/app/achetercredit/achetercredit.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".content{\r\n    margin-left: 250px; /* Same as the width of the sidebar */\r\n    padding:10px;\r\n    padding-top: 80px;\r\n}\r\n\r\n.container {\r\n    padding-top: 20px;\r\n}\r\n.active{\r\n    background-color: #204d7a;\r\n    border:#204d7a;\r\n}\r\n#pricing{\r\n    background-color:#eee;\r\n}\r\n.z-depth-5{\r\n    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);\r\n  }\r\n\r\n.container .row{\r\n    margin-top: 10px;\r\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/achetercredit/achetercredit.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<app-header></app-header>\n\n<div class=\"content\">\n  <h2 class=\"text-muted text-center\">Buy a Package</h2>\n\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-4\">\n        <ul class=\"list-group text-center z-depth-5\">\n          <li class=\"list-group-item active\"><b>Basic</b></li>\n          <li class=\"list-group-item\" id=\"pricing\">$ 9.99 / year</li>\n          <li class=\"list-group-item\">10 Emails</li>\n          <li class=\"list-group-item\">10 Domains</li>\n          <li class=\"list-group-item\">1GB Bandwidth</li>\n          <button class=\"btn btn-lg btn-success btn-block\">Acheter</button>\n        </ul>\n      </div>\n      <div class=\"col-md-4\">\n        <ul class=\"list-group text-center z-depth-5\">\n          <li class=\"list-group-item active\"><b>Pro</b></li>\n          <li class=\"list-group-item\" id=\"pricing\">$ 24.99 / year</li>\n          <li class=\"list-group-item\">25 Emails</li>\n          <li class=\"list-group-item\">25 Domains</li>\n          <li class=\"list-group-item\">2GB Bandwidth</li>\n          <button class=\"btn btn-lg btn-success btn-block\">Acheter</button>\n        </ul>\n      </div>\n      <div class=\"col-md-4\">\n          <ul class=\"list-group text-center z-depth-5\">\n          <li class=\"list-group-item active\"><b>Premium</b></li>\n          <li class=\"list-group-item\" id=\"pricing\">$ 49.99 / year</li>\n          <li class=\"list-group-item\">50 Emails</li>\n          <li class=\"list-group-item\">50 Domains</li>\n          <li class=\"list-group-item\">5GB Bandwidth</li>\n          <button class=\"btn btn-lg btn-success btn-block\">Acheter</button>\n         </ul>\n      </div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-4\">\n          <ul class=\"list-group text-center z-depth-5\">\n            <li class=\"list-group-item active\"><b>Basic</b></li>\n            <li class=\"list-group-item\" id=\"pricing\">$ 9.99 / year</li>\n            <li class=\"list-group-item\">10 Emails</li>\n            <li class=\"list-group-item\">10 Domains</li>\n            <li class=\"list-group-item\">1GB Bandwidth</li>\n            <button class=\"btn btn-lg btn-success btn-block\">Acheter</button>\n          </ul>\n        </div>\n        <div class=\"col-md-4\">\n          <ul class=\"list-group text-center z-depth-5\">\n            <li class=\"list-group-item active\"><b>Pro</b></li>\n            <li class=\"list-group-item\" id=\"pricing\">$ 24.99 / year</li>\n            <li class=\"list-group-item\">25 Emails</li>\n            <li class=\"list-group-item\">25 Domains</li>\n            <li class=\"list-group-item\">2GB Bandwidth</li>\n            <button class=\"btn btn-lg btn-success btn-block\">Acheter</button>\n          </ul>\n        </div>\n        <div class=\"col-md-4\">\n            <ul class=\"list-group text-center z-depth-5\">\n            <li class=\"list-group-item active\"><b>Premium</b></li>\n            <li class=\"list-group-item\" id=\"pricing\">$ 49.99 / year</li>\n            <li class=\"list-group-item\">50 Emails</li>\n            <li class=\"list-group-item\">50 Domains</li>\n            <li class=\"list-group-item\">5GB Bandwidth</li>\n            <button class=\"btn btn-lg btn-success btn-block\">Acheter</button>\n           </ul>\n        </div>\n      </div>\n\n\n  </div>\n</div>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/achetercredit/achetercredit.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AchetercreditComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var AchetercreditComponent = (function () {
+    function AchetercreditComponent() {
+    }
+    AchetercreditComponent.prototype.ngOnInit = function () {
+    };
+    AchetercreditComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-achetercredit',
+            template: __webpack_require__("../../../../../src/app/achetercredit/achetercredit.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/achetercredit/achetercredit.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], AchetercreditComponent);
+    return AchetercreditComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "../../../../../src/app/app.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -161,6 +222,7 @@ var AppComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__cpsmessage_cpsmessage_component__ = __webpack_require__("../../../../../src/app/cpsmessage/cpsmessage.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pdrmessage_pdrmessage_component__ = __webpack_require__("../../../../../src/app/pdrmessage/pdrmessage.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__messagesent_messagesent_component__ = __webpack_require__("../../../../../src/app/messagesent/messagesent.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__achetercredit_achetercredit_component__ = __webpack_require__("../../../../../src/app/achetercredit/achetercredit.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -173,6 +235,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 //components
+
 
 
 
@@ -215,6 +278,7 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_20__cpsmessage_cpsmessage_component__["a" /* CpsmessageComponent */],
                 __WEBPACK_IMPORTED_MODULE_21__pdrmessage_pdrmessage_component__["a" /* PdrmessageComponent */],
                 __WEBPACK_IMPORTED_MODULE_22__messagesent_messagesent_component__["a" /* MessagesentComponent */],
+                __WEBPACK_IMPORTED_MODULE_23__achetercredit_achetercredit_component__["a" /* AchetercreditComponent */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -280,6 +344,10 @@ var AppModule = (function () {
                         component: __WEBPACK_IMPORTED_MODULE_22__messagesent_messagesent_component__["a" /* MessagesentComponent */]
                     },
                     {
+                        path: 'credit/acheter',
+                        component: __WEBPACK_IMPORTED_MODULE_23__achetercredit_achetercredit_component__["a" /* AchetercreditComponent */]
+                    },
+                    {
                         path: '**',
                         component: __WEBPACK_IMPORTED_MODULE_11__notfound_notfound_component__["a" /* NotfoundComponent */]
                     }
@@ -317,7 +385,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/header/header.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar fixed-top navbar-expand-xl navbar-dark bg-dark\">\n  <!-- data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" -->\n      <button class=\"navbar-toggler\" type=\"button\" >\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>\n      <a class=\"navbar-brand\" routerLink=\"\">\n         <img src=\"assets/img/hubcom.png\" width=\"123px\" height=\"33px\" alt=\"\">\n      </a>\n        <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n          <ul class=\"navbar-nav mr-auto\">\n            <li class=\"nav-item active\">\n              <a class=\"nav-link btn btn-outline-info\" routerLink=\"/messaging/composeMessage\"><i class=\"fa fa-commenting\" aria-hidden=\"true\"></i>\n                Compose\n              </a>\n            </li>\n          </ul>\n          <!-- <span class=\"navbar-text text-white\">\n              <span class=\"badge badge-pill badge-info\">0</span> Credit\n          </span> -->\n          <ul class=\"navbar-nav ml-auto\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link btn btn-success text-white\">\n               <b style=\"font-size:18px;\">4000</b> Credits\n              </a>\n            </li>\n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n               <span class=\"text-white\">Welcome, Danny</span> \n                <!-- <img src=\"assets/img/user1.jpg\" width=\"45px\" height=\"45px\" alt=\"\" class=\"rounded-circle\"> -->\n              </a>\n              <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n                  <a class=\"dropdown-item\" href=\"#\">Profile</a>\n                  <a class=\"dropdown-item\" href=\"#\">Log out</a>\n              </div>\n            </li>\n          </ul>\n        </div>\n</nav>\n\n<div class=\"sidenav\">\n    <a routerLink=\"/dashboard\"><i class=\"fa fa-tachometer\" aria-hidden=\"true\"></i> Dashboard</a>\n    <!-- <a routerLink=\"/messaging\">Messaging</a> -->\n    <ul class=\"navbar-nav\">\n\n      <li data-toggle=\"collapse\" data-target=\"#repertoire\" class=\"collapsed active\">\n        <a class=\"dropdown\">\n            <i class=\"fa fa-address-book\" aria-hidden=\"true\"></i>\n             Repertory\n        </a>\n        <div class=\"collapse\" id=\"repertoire\" style=\"margin-left:20px;\">\n          <li><a routerLink=\"/repertory/contacts\"><i class=\"fa fa-address-card-o\" aria-hidden=\"true\"></i>\n            Contact\n          </a></li>\n          <li><a routerLink=\"/repertory/Groups\"><i class=\"fa fa-users\" aria-hidden=\"true\"></i>\n            Group</a></li>\n        </div>\n      </li>\n      <li data-toggle=\"collapse\" data-target=\"#Messaging\" class=\"collapsed active\">\n        <a class=\"dropdown\">\n            <i class=\"fa fa-comments\" aria-hidden=\"true\"></i>\n             Messaging\n        </a>\n        <div class=\"collapse\" id=\"Messaging\" style=\"margin-left:20px;\">\n          <li><a routerLink=\"/messaging/composeMessage\"><i class=\"fa fa-commenting\" aria-hidden=\"true\"></i>\n              Composer Message</a></li>\n          <li><a routerLink=\"/messaging/predifineMessage\"><i class=\"fa fa-envelope-open\" aria-hidden=\"true\"></i>\n            Predefinir Message</a></li>\n          <li><a routerLink=\"/messaging/messagesent\"><i class=\"fa fa-paper-plane-o\" aria-hidden=\"true\"></i>\n            Message Sent</a></li>\n        </div>\n      </li>\n      <li data-toggle=\"collapse\" data-target=\"#Credit\" class=\"collapsed active\">\n        <a class=\"dropdown\">\n            <i class=\"fa fa-credit-card\" aria-hidden=\"true\"></i>\n             Credit\n        </a>\n        <div class=\"collapse\" id=\"Credit\" style=\"margin-left:20px;\">\n          <li><a><i class=\"fa fa-refresh\" aria-hidden=\"true\"></i>\n            Consulter credit</a></li>\n          <li><a><i class=\"fa fa-money\" aria-hidden=\"true\"></i>\n            Acheter credit</a></li>\n        </div>\n      </li>\n    </ul>\n\n    <div class=\"sideprofile\">\n      <div class=\"dropdown-divider\"></div>\n      <ul class=\"navbar-nav\">\n          <li data-toggle=\"collapse\" data-target=\"#profile\" class=\"collapsed active\">\n              <a class=\"dropdown-toggle\">\n                Danny <span class=\"arrow\"></span>\n              </a>\n              <div class=\"collapse\" id=\"profile\">\n                  <li><a>Profile</a></li>\n              </div>\n          </li>\n      </ul>\n    </div>\n</div>\n"
+module.exports = "<nav class=\"navbar fixed-top navbar-expand-xl navbar-dark bg-dark\">\n  <!-- data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" -->\n      <button class=\"navbar-toggler\" type=\"button\" >\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>\n      <a class=\"navbar-brand\" routerLink=\"\">\n         <img src=\"assets/img/hubcom.png\" width=\"123px\" height=\"33px\" alt=\"\">\n      </a>\n        <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n          <ul class=\"navbar-nav mr-auto\">\n            <li class=\"nav-item active\">\n              <a class=\"nav-link btn btn-outline-info\" routerLink=\"/messaging/composeMessage\"><i class=\"fa fa-commenting\" aria-hidden=\"true\"></i>\n                Compose\n              </a>\n            </li>\n          </ul>\n          <!-- <span class=\"navbar-text text-white\">\n              <span class=\"badge badge-pill badge-info\">0</span> Credit\n          </span> -->\n          <ul class=\"navbar-nav ml-auto\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link btn btn-success text-white\">\n               <b style=\"font-size:18px;\">4000</b> Credits\n              </a>\n            </li>\n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n               <span class=\"text-white\">Welcome, Danny</span> \n                <!-- <img src=\"assets/img/user1.jpg\" width=\"45px\" height=\"45px\" alt=\"\" class=\"rounded-circle\"> -->\n              </a>\n              <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n                  <a class=\"dropdown-item\" href=\"#\">Profile</a>\n                  <a class=\"dropdown-item\" href=\"#\">Log out</a>\n              </div>\n            </li>\n          </ul>\n        </div>\n</nav>\n\n<div class=\"sidenav\">\n    <a routerLink=\"/dashboard\"><i class=\"fa fa-tachometer\" aria-hidden=\"true\"></i> Dashboard</a>\n    <!-- <a routerLink=\"/messaging\">Messaging</a> -->\n    <ul class=\"navbar-nav\">\n\n      <li data-toggle=\"collapse\" data-target=\"#repertoire\" class=\"collapsed active\">\n        <a class=\"dropdown\">\n            <i class=\"fa fa-address-book\" aria-hidden=\"true\"></i>\n             Repertory\n        </a>\n        <div class=\"collapse\" id=\"repertoire\" style=\"margin-left:20px;\">\n          <li><a routerLink=\"/repertory/contacts\"><i class=\"fa fa-address-card-o\" aria-hidden=\"true\"></i>\n            Contact\n          </a></li>\n          <li><a routerLink=\"/repertory/Groups\"><i class=\"fa fa-users\" aria-hidden=\"true\"></i>\n            Group</a></li>\n        </div>\n      </li>\n      <li data-toggle=\"collapse\" data-target=\"#Messaging\" class=\"collapsed active\">\n        <a class=\"dropdown\">\n            <i class=\"fa fa-comments\" aria-hidden=\"true\"></i>\n             Messaging\n        </a>\n        <div class=\"collapse\" id=\"Messaging\" style=\"margin-left:20px;\">\n          <li><a routerLink=\"/messaging/composeMessage\"><i class=\"fa fa-commenting\" aria-hidden=\"true\"></i>\n              Composer Message</a></li>\n          <li><a routerLink=\"/messaging/predifineMessage\"><i class=\"fa fa-envelope-open\" aria-hidden=\"true\"></i>\n            Predefinir Message</a></li>\n          <li><a routerLink=\"/messaging/messagesent\"><i class=\"fa fa-paper-plane-o\" aria-hidden=\"true\"></i>\n            Message Sent</a></li>\n        </div>\n      </li>\n      <li data-toggle=\"collapse\" data-target=\"#Credit\" class=\"collapsed active\">\n        <a class=\"dropdown\">\n            <i class=\"fa fa-credit-card\" aria-hidden=\"true\"></i>\n             Credit\n        </a>\n        <div class=\"collapse\" id=\"Credit\" style=\"margin-left:20px;\">\n          <li><a routerLink=\"/credit/acheter\"><i class=\"fa fa-money\" aria-hidden=\"true\"></i>\n            Acheter credit</a></li>\n          <li><a><i class=\"fa fa-refresh\" aria-hidden=\"true\"></i>\n            Consulter credit</a></li>\n        </div>\n      </li>\n    </ul>\n\n    <div class=\"sideprofile\">\n      <div class=\"dropdown-divider\"></div>\n      <ul class=\"navbar-nav\">\n          <li data-toggle=\"collapse\" data-target=\"#profile\" class=\"collapsed active\">\n              <a class=\"dropdown-toggle\">\n                Danny <span class=\"arrow\"></span>\n              </a>\n              <div class=\"collapse\" id=\"profile\">\n                  <li><a>Profile</a></li>\n              </div>\n          </li>\n      </ul>\n    </div>\n</div>\n"
 
 /***/ }),
 
